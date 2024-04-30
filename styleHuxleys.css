@@ -1,0 +1,160 @@
+#header {
+    border: 7px solid maroon;
+    display: flex; 
+    justify-content: center;
+    padding: 20px;
+    font-family: serif;
+    font-size: larger;
+    background-color: rgb(215 0 0 / 50%);
+    background-image: url(https://img.freepik.com/free-vector/oriental-mandala-background-with-empty-space_52683-64825.jpg?size=626&ext=jpg&ga=GA1.1.867424154.1713484800&semt=ais);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: antiquewhite;
+       
+}
+
+
+
+#headerText {
+border: 2px solid maroon; 
+width: 80%;
+height: 100%;
+text-align: center;
+
+}
+
+#container {
+    display: flex; 
+    border: 2px solid maroon;
+    background-color:rgba(139, 30, 10, 0.5);
+    width: 100%;  
+    
+}
+
+h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+
+}
+
+p {
+    font-family: serif;
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 1.5rem; 
+   
+}
+
+
+#summary {
+    border: 2px solid maroon;
+    width: 50%;
+    text-align: center;
+    background-image: url(https://thumbs.dreamstime.com/b/vertical-shot-columns-carnegie-mellon-university-pittsburgh-pennsylvania-263410119.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color:aliceblue;
+    opacity: 0.85; 
+    rgba: (0, 0, 0, 0.5);
+    
+}
+
+
+#courses {
+border: 2px solid;
+width: 25%; 
+text-align: center;
+color: maroon; 
+background-color: rgba(239, 207, 30, 0.5)
+
+
+}
+
+li {
+    padding: 5px;
+    margin: 10px; 
+    color: maroon; 
+}
+
+li::before {
+    color: maroon; 
+}
+
+footer {
+    border: 2px solid maroon; 
+    height: 100%; 
+    width: 97.5%; 
+    background-color: rgba(128, 0, 0, 0.826);
+    padding-left: 20px; 
+    padding-bottom: 10px;
+    color: antiquewhite;
+}
+
+#nav {
+    padding: 5px;
+    margin: 5px;
+    width: 25%; 
+    background-color: rgb(215 0 0 / 40%);
+    
+     
+}
+
+.button {
+    border: 2px solid maroon;
+    color:antiquewhite;
+    width: 80%;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: maroon;
+    box-shadow: 3px 3px 3px black;
+    justify-content: space-around;
+    margin-bottom: 10px; 
+    
+
+}
+
+.button:hover {background-color: maroon; 
+    color: white;
+    transition-duration: 1s;
+    opacity: 60%; cursor: zoom-in; }
+
+.button:active {
+        background-color: brown;
+        box-shadow: 0 5px maroon;
+        transform: translateY(4px);
+      }
+
+.bulletPoint {
+    text-align: left;
+    margin-left: 25px;
+    
+}
+
+#coderTheBulldog {border: 2px solid;
+width: 100%;
+height: 200px;
+background-image: url(https://thumbs.dreamstime.com/b/bulldog-suit-checks-stocks-computer-dimly-lit-room-adorned-books-sophisticated-decor-distinguished-confidently-290147042.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition: background-image 0.3s ease-in-out;
+}
+
+#coderTheBulldog:hover {
+    background-image: url(https://cdn.britannica.com/57/132557-050-9BA29F5A/TH-Huxley-Carlo-Pellegrini-1871.jpg);
+}
+
+
+
+  a:link {color: chocolate; }
+
+  a:hover {color:maroon;
+    text-decoration: none;}
+
+  a:visited {color:blueviolet;
+    text-decoration: none;}
+
+.bulletPoint {color:chocolate;}
